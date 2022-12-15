@@ -17,8 +17,8 @@ public class Employee {
         this.patronymic = patronymic;
         this.department = department;
         this.salary = salary;
-        this.id = counter;
-        counter++;
+        this.id = counter++;
+        ;
     }
 
     public String getName() {
@@ -64,7 +64,7 @@ public class Employee {
                  + name + " " + surname+ " " + patronymic +
                 ", Отдел=" + department +
                 ", Зарплата=" + salary + " Рублей " +
-                ", Id" + id;
+                ", Id=" + id;
     }
 
     @Override
